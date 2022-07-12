@@ -1,18 +1,39 @@
+:root {
+    --general-font: 'Nunito', sans-serif;
+}
 h1 {
-    font-family: 'Nunito', sans-serif;
-    font-size: 57px !important;
+    font-family: var(--general-font);
+    font-size: 60px !important;
     white-space: nowrap;
+    line-height: 1.5;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    font-family: var(--general-font);
+}
+h4 {
+    font-family: var(--general-font);
+    text-align: center;
 }
 p {
-    font-size: 15px;
+    font-size: 19px;
     color: rgb(98, 98, 98);
+    font-family: var(--general-font);
 }
-.container {
+.cont-hero {
     margin: 100px auto;
     display: flex;
 }
 .hero {
     margin: 0 auto;
 }
-
-
+.welcome {
+    margin-top: 150px;
+}
+.works {
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 63px;
+    box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.2);
+}
