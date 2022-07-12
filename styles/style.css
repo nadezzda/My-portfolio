@@ -1,0 +1,18 @@
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 57px !important;
+    white-space: nowrap;
+}
+p {
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+}
+.container {
+    margin: 100px auto;
+    display: flex;
+}
+.hero {
+    margin: 0 auto;
+}
+
+
