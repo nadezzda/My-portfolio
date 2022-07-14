@@ -9,6 +9,8 @@ h1 {
 }
 h2 {
     text-align: center;
+    line-height: 1.5;
+
 }
 h3 {
     font-family: var(--general-font);
@@ -16,12 +18,14 @@ h3 {
 h4 {
     font-family: var(--general-font);
     text-align: center;
+    line-height: 1.5;
+
 }
 p {
     font-size: 19px;
     color: rgb(98, 98, 98);
     font-family: var(--general-font);
-}
+    }
 .cont-hero {
     margin: 100px auto;
     display: flex;
@@ -36,4 +40,15 @@ p {
     border: 3px solid rgba(0, 0, 0, 0.2);
     border-radius: 63px;
     box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.2);
+}
+.about-text {
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 63px;
+    padding: 40px;
+    box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.2);
+
+}
+.photos {
+    align-content: space-evenly;
+    padding: 150px;
 }
