@@ -1,8 +1,10 @@
 :root {
     --general-font: 'Nunito', sans-serif;
 }
-h1 {
+h1, h2, h3, h4 {
     font-family: var(--general-font);
+}
+h1 {
     font-size: 60px !important;
     white-space: nowrap;
     line-height: 1.5;
@@ -10,16 +12,10 @@ h1 {
 h2 {
     text-align: center;
     line-height: 1.5;
-
-}
-h3 {
-    font-family: var(--general-font);
 }
 h4 {
-    font-family: var(--general-font);
     text-align: center;
     line-height: 1.5;
-
 }
 p {
     font-size: 19px;
@@ -51,4 +47,14 @@ p {
 .photos {
     align-content: space-evenly;
     padding: 150px;
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.578);
+    height: 80px;
+    font-family: var(--general-font);
+    font-size: 18px;
+}
+.edu {
+    margin: 100px;
+    background-color: white;
 }
