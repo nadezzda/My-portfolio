@@ -23,19 +23,17 @@ p {
     font-family: var(--general-font);
     }
 .cont-hero {
-    margin: 100px auto;
+    margin: 50px auto;
+    padding: 50px !important;
     display: flex;
+    border-radius: 63px;
+    box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.1);
 }
 .hero {
     margin: 0 auto;
 }
 .welcome {
-    margin-top: 150px;
-}
-.works {
-    border: 3px solid rgba(0, 0, 0, 0.2);
-    border-radius: 63px;
-    box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.2);
+    margin-top: 130px;
 }
 .about-text {
     border: 3px solid rgba(0, 0, 0, 0.2);
@@ -57,4 +55,21 @@ p {
 .edu {
     margin: 100px;
     background-color: white;
+}
+.btn {
+    font-family: var(--general-font);
+    background-color: #00BFA6 !important;
+    border-radius: 30px !important;  
+    padding: 10px 20px !important;
+}
+.edu a { 
+    color: #00BFA6 !important;
+}
+.open-source {
+    color: #00BFA6;
+}
+.works {
+    padding: 50px !important;
+    border-radius: 63px;
+    box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.1);   
 }
