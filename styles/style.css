@@ -31,7 +31,12 @@ p {
     border-radius: 63px;
     box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.1);
 }
-
+.contact-links {
+    margin: 20px;
+    padding: 20px !important;
+    border-radius: 30px;
+    box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.1);
+}
 .hero {
     margin: 0 auto;
 }
@@ -69,6 +74,9 @@ p {
 }
 .open-source {
     color: rgb(0, 191, 166);
+}
+.message {
+    text-align: right;
 }
 .works {
     padding: 50px !important;
