@@ -75,13 +75,13 @@
       </div>
     <div class="row d-none d-lg-flex">
         <div class="col contact-links">
-            <a class="open-source" href="mailto:malicenkonadic@gmail.com">malicenkonadic@gmail.com</a>
+            <a target="_blank" title="Contact by email" class="open-source" href="mailto:malicenkonadic@gmail.com">malicenkonadic@gmail.com</a>
         </div>
         <div class="col contact-links">
-            <a class="open-source" href="https://instagram.com/_._._hopelessness._._?igshid=YmMyMTA2M2Y=">@_._._hopelessness._._</a> 
+            <a target="_blank" title="Contact in Instagram" class="open-source" href="https://instagram.com/_._._hopelessness._._?igshid=YmMyMTA2M2Y=">@_._._hopelessness._._</a> 
         </div>
         <div class="col contact-links">
-            <a class="open-source" href="https://www.linkedin.com/in/nadiia-malichenko-363688242/">Nadiia Malichenko</a> 
+            <a target="_blank" title="Contact in Linkedin" class="open-source" href="https://www.linkedin.com/in/nadiia-malichenko-363688242/">Nadiia Malichenko</a> 
         </div>
     </div>
     <div class="container d-block d-lg-none">
@@ -90,7 +90,7 @@
           <h6>Email</h6>
         </div>
         <div class="col">
-          <a class="open-source" href="mailto:malicenkonadic@gmail.com">malicenkonadic@gmail.com</a>
+          <a target="_blank" title="Contact by email" class="open-source" href="mailto:malicenkonadic@gmail.com">malicenkonadic@gmail.com</a>
         </div>
       </div>
       <div class="row">
@@ -98,7 +98,7 @@
           <h6>Instagram</h6>
         </div>
         <div class="col">
-          <a class="open-source" href="https://instagram.com/_._._hopelessness._._?igshid=YmMyMTA2M2Y=">@_._._hopelessness._._</a> 
+          <a target="_blank" title="Contact in Instagram" class="open-source" href="https://instagram.com/_._._hopelessness._._?igshid=YmMyMTA2M2Y=">@_._._hopelessness._._</a> 
         </div>
       </div>
       <div class="row">
@@ -106,7 +106,7 @@
           <h6>Linkedin</h6>
         </div>
         <div class="col">
-          <a class="open-source" href="https://www.linkedin.com/in/nadiia-malichenko-363688242/">Nadiia Malichenko</a> 
+          <a target="_blank" title="Contact in Linkedin" class="open-source" href="https://www.linkedin.com/in/nadiia-malichenko-363688242/">Nadiia Malichenko</a> 
         </div>
       </div>
     </div>
@@ -120,20 +120,28 @@
         </div>
         <div class="col">
             <textarea class="form-control m-4" placeholder="Your Message:" id="floatingTextarea2" style="height: 100px"></textarea>
-            <div class="message"><button type="submit" class="btn ml-4">Send</button></div>
+            <div class="message"><button id="but" type="submit" class="btn ml-4">Send</button></div>
         </div>
       </div>
       </div>
       <footer id="contact">
         <div class="email-link d-flex justify-content-center">
-        <a href="mailto:malicenkonadic@gmail.com">malicenkonadic@gmail.com</a>
+        <a target="_blank" title="Contact by email" href="mailto:malicenkonadic@gmail.com">malicenkonadic@gmail.com</a>
         </div>
-        <div class="text-center"><p>✌🏻This website was coded by Nadiia Malichenko, and is <a class="open-source" href="https://github.com/nadezzda/My-portfolio">open-sourced</a></p></div>
+        <div class="text-center"><p>✌🏻This website was coded by Nadiia Malichenko, and is <a target="_blank" title="Get code of this website" class="open-source" href="https://github.com/nadezzda/My-portfolio">open-sourced</a></p></div>
+  
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/nadezzda"><i class="fa-brands fa-github"></i></a>
-          <a href="https://instagram.com/_._._hopelessness._._?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/nadiia-malichenko-363688242/"><i class="fa-brands fa-linkedin"></i></a>
+          <a target="_blank" title="Go to GitHub account" href="https://github.com/nadezzda"><i class="fa-brands fa-github"></i></a>
+          <a target="_blank" title="Contact in Instagram" href="https://instagram.com/_._._hopelessness._._?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+          <a target="_blank" title="Contact in Linkedin" href="https://www.linkedin.com/in/nadiia-malichenko-363688242/"><i class="fa-brands fa-linkedin"></i></a>
       </div>
-    </footer>
+      </footer>
+      <script>
+         function Message() {
+        alert("Thank you for your message!")
+      }
+    let button = document.querySelector("#but");
+        button.addEventListener("click", Message);
+      </script>
 </body>
 </html>

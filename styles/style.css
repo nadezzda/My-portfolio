@@ -138,7 +138,8 @@ footer .email-link a {
     .cont-hero {
         display: flex;
         border-radius: 63px;
-        box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.1);  
+        box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.1); 
+        padding: auto; 
     } 
     .welcome {
         margin-top: 0;
@@ -154,5 +155,5 @@ footer .email-link a {
         padding: 5px 10px !important;
         width: 100%;
     }
-   
+ 
 }
