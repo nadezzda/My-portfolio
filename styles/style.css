@@ -155,5 +155,11 @@ footer .email-link a {
         padding: 5px 10px !important;
         width: 100%;
     }
- 
+ .edu {
+    margin: auto;
+ }
+ .projects {
+    margin: auto;
+ }
+
 }
