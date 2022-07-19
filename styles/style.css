@@ -3,7 +3,7 @@
     --general-color: rgba(0, 191, 166, 0.3);
     --text-color: #626262;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4. h6{
     font-family: var(--general-font);
 }
 h1 {
@@ -105,8 +105,4 @@ footer .email-link a {
     color: var(--text-color);
     margin: 20px;
     font-size: 25px;
-}
-.fa-light a{
-    font-size: 25px;
-    color: black;
 }
