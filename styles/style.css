@@ -3,7 +3,7 @@
     --general-color: rgba(0, 191, 166, 0.3);
     --text-color: #626262;
 }
-h1, h2, h3, h4. h6{
+h1, h2, h3, h4, h6 {
     font-family: var(--general-font);
 }
 h1 {
@@ -49,6 +49,12 @@ p {
     padding: 40px;
     box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.1);
 }
+.about-me-text {
+    border-radius: 50px;
+    margin: 25px;
+    padding: 20px;
+    box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.1);
+}
 .photos {
     align-content: space-evenly;
     padding: 150px;
@@ -65,7 +71,7 @@ p {
 }
 .btn {
     font-family: var(--general-font);
-    background-color: var(--general-color)!important;
+    background-color: var(--general-color) !important;
     border-radius: 30px !important;  
     padding: 10px 20px !important;
 }
@@ -86,7 +92,7 @@ p {
 }
 footer {
     background-color: rgba(0, 191, 166, 0.3);
-}
+    }
 footer .social-links a {
     color: var(--text-color);
     margin: 20px;
@@ -105,4 +111,46 @@ footer .email-link a {
     color: var(--text-color);
     margin: 20px;
     font-size: 25px;
+}
+.certificate {
+    display: inline-flex;
+    
+
+}
+@media (max-width: 600px) {
+    p {
+        font-size: 14px;
+    }
+    footer .social-links a {
+        font-size: 15px;
+        padding: 7px 12px;
+    }   
+    footer .email-link a {
+        font-size: 16px;
+    }     
+}
+@media (max-width: 990px) {
+    h1 {
+        font-size: 40px !important;
+    } 
+    .cont-hero {
+        display: flex;
+        border-radius: 63px;
+        box-shadow: 3px -7px 74px 39px rgba(0, 0, 0, 0.1);  
+    } 
+    .welcome {
+        margin-top: 0;
+    }
+    .certificate {
+        display: block;
+        width: 100%;
+    }
+    .btn  {
+        font-family: var(--general-font);
+        background-color: var(--general-color) !important;
+        border-radius: 20px !important;  
+        padding: 5px 10px !important;
+        width: 100%;
+    }
+   
 }
