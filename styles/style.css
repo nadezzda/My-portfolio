@@ -117,7 +117,8 @@ footer .email-link a {
     
 
 }
-@media (max-width: 600px) {
+
+@media (max-width: 990px) {
     p {
         font-size: 14px;
     }
@@ -127,12 +128,13 @@ footer .email-link a {
     }   
     footer .email-link a {
         font-size: 16px;
-    }     
-}
-@media (max-width: 990px) {
+    }  
     h1 {
-        font-size: 40px !important;
+        font-size: 25px !important;
     } 
+    h3 {
+        font-size: 20px !important;
+    }
     .cont-hero {
         display: flex;
         border-radius: 63px;
